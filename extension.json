@@ -1,0 +1,22 @@
+{
+        "name": "GoogleTranslator",
+        "version": "1.0.0",
+        "author": [
+                "[https://www.spe.org Ankur Shah]"
+        ],
+        "url": "https://github.com/bryandamon/GoogleTranslator",
+        "descriptionmsg": "googletranslator-desc",
+        "type": "other",
+        "MessagesDirs": {
+                "GoogleTranslator": [
+                        "i18n"
+                ]
+        },
+        "AutoloadClasses": {
+                "GoogleTranslator": "includes/GoogleTranslator.class.php"
+        },
+        "Hooks":{
+        "SkinBuildSidebar":["GoogleTranslator::GoogleTranslatorInSidebar"]
+        },
+        "manifest_version": 1
+}
