@@ -2,10 +2,11 @@
         "name": "GoogleTranslator",
         "version": "1.0.0",
         "author": [
-                "[https://www.spe.org Ankur Shah]"
+                "Joachim De Schrijver, [https://www.spe.org Ankur Shah], and Bryan Hilderbrand"
         ],
         "url": "https://github.com/bryandamon/GoogleTranslator",
-        "descriptionmsg": "Sidebar site Translation via Google Translate",
+        "descriptionmsg": "googletranslator-desc",
+        "license-name": "LGPL-3.0-or-later",
         "type": "other",
         "MessagesDirs": {
                 "GoogleTranslator": [
