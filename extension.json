@@ -16,7 +16,8 @@
                 "GoogleTranslator": "includes/GoogleTranslator.class.php"
         },
         "Hooks":{
-        "SkinBuildSidebar":["GoogleTranslator::GoogleTranslatorInSidebar"]
+        "SkinBuildSidebar":["GoogleTranslator::GoogleTranslatorInSidebar"],
+        "SkinAfterContent":["GoogleTranslator::OnSkinAfterContent"]
         },
         "manifest_version": 1
 }
