@@ -5,7 +5,7 @@
                 "[https://www.spe.org Ankur Shah]"
         ],
         "url": "https://github.com/bryandamon/GoogleTranslator",
-        "descriptionmsg": "googletranslator-desc",
+        "descriptionmsg": "Sidebar site Translation via Google Translate",
         "type": "other",
         "MessagesDirs": {
                 "GoogleTranslator": [
