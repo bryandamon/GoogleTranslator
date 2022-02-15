@@ -1,15 +1,31 @@
 /**
 * Stylesheet for GoogleTranslator extension.
-*
-* This should be added to [[MediaWiki:Common.css]] page when installing this
-* extension and should not be modified. You may modify the CSS code on the
-* MediaWiki:Common.css page to adjust padding, alignment, etc.
-*
-* @addtogroup Extensions
 */
 
-/* Pad Google AdSense box in portlet in sidebar */
+/* Pad Google Translate box in portlet in sidebar */
 #p-googleatranslator .pBody {
     padding-top: 5px;
     text-align:  center;
+}
+
+/* Removes the translation "better suggestion" pop-up */
+#goog-gt-tt {
+        display:none !important;
+}
+
+font.goog-text-highlight {
+background-color: unset;
+-webkit-box-shadow: none;
+box-shadow: none;
+}
+
+/* Hide the G logo (Don't do this for now)
+.goog-te-gadget-icon {
+        display:none !important;
+}
+*/
+
+/* Move the Traslate box */
+#google_translate_element {
+        transform: translateX(-0px);
 }
