@@ -15,6 +15,9 @@ if (!defined('MEDIAWIKI')) die();
 
 class GoogleTranslator {
         static function GoogleTranslatorInSidebar( $skin, &$bar ) {
+                global $wgOut;
+
+        $wgOut->addModules( 'ext.GoogleTranslator' );
 
                         $bar[ 'googletranslator' ] =  array(
                                 array(
