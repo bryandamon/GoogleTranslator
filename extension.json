@@ -1,6 +1,6 @@
 {
         "name": "GoogleTranslator",
-        "version": "1.0.0",
+        "version": "0.1.0",
         "author": [
                 "Joachim De Schrijver, [https://www.spe.org Ankur Shah], and Bryan Hilderbrand"
         ],
@@ -16,9 +16,16 @@
         "AutoloadClasses": {
                 "GoogleTranslator": "includes/GoogleTranslator.class.php"
         },
+        "ResourceModules": {
+                "ext.GoogleTranslator": {
+                        "localBasePath": "",
+                        "remoteExtPath": "GoogleTranslator",
+                        "styles": "GoogleTranslator.css"
+                }
+        },
         "Hooks":{
-        "SkinBuildSidebar":["GoogleTranslator::GoogleTranslatorInSidebar"],
-        "SkinAfterContent":["GoogleTranslator::OnSkinAfterContent"]
+                "SkinBuildSidebar":["GoogleTranslator::GoogleTranslatorInSidebar"],
+                "SkinAfterContent":["GoogleTranslator::OnSkinAfterContent"]
         },
         "manifest_version": 1
 }
