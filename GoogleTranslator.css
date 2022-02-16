@@ -13,6 +13,7 @@
         display:none !important;
 }
 
+/* Removes the translation "better suggestion" highlight */
 font.goog-text-highlight {
 background-color: unset;
 -webkit-box-shadow: none;
@@ -27,5 +28,23 @@ box-shadow: none;
 
 /* Move the Traslate box */
 #google_translate_element {
-        transform: translateX(-0px);
+        transform: translateX(-5px);
+}
+
+/* Adjust font size
+.goog-te-menu-value {
+    font-size: 0.85em;
+    line-height: 1.125em;
+}
+*/
+
+/* Zoom for the entire element */
+.goog-te-gadget-simple {
+        zoom: .85 !important;
+        padding-right: 15px;
+}
+
+/* Remove drowndown arrow */
+.goog-te-menu-value span:last-child {
+        display:none !important;
 }
