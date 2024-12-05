@@ -26,10 +26,10 @@ box-shadow: none;
 }
 */
 
-/* Move the Traslate box */
+/* Move the Traslate box
 #google_translate_element {
         transform: translateX(-5px);
-}
+} */
 
 /* Adjust font size
 .goog-te-menu-value {
@@ -38,13 +38,22 @@ box-shadow: none;
 }
 */
 
-/* Zoom for the entire element */
+/* Zoom for the entire element
 .goog-te-gadget-simple {
         zoom: .85 !important;
         padding-right: 15px;
-}
+} */
 
-/* Remove drowndown arrow */
+/* Remove drowndown arrow
 .goog-te-menu-value span:last-child {
         display:none !important;
+} */
+
+/* Zoom for the Translate */
+.goog-te-combo {
+    zoom: .99 !important;
+}
+/* Shift Dropdown to left */
+.goog-te-gadget {
+    margin-left: -20px;
 }
