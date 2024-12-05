@@ -11,7 +11,7 @@ if (!defined('MEDIAWIKI')) die();
 
 # Default values for the variables.
 #$wgGoogleTranslatorOriginal  = $wgLanguageCode; // Original languages of the page that needs translation
-#$wgGoogleTranslatorLanguages  = 'fr,de';        // Languages included in the translating box
+#$wgGoogleTranslatorLanguages  = 'fr,de';	// Languages included in the translating box
 
 class GoogleTranslator {
 	static function GoogleTranslatorInSidebar( $skin, &$bar ) {
@@ -36,16 +36,16 @@ class GoogleTranslator {
 
 		# Default values for the variables.
 		#$wgGoogleTranslatorOriginal  = $wgLanguageCode; // Original languages of the page that needs translation
-		#$wgGoogleTranslatorLanguages  = 'fr,de';        // Languages included in the translating box
+		#$wgGoogleTranslatorLanguages  = 'fr,de';	// Languages included in the translating box
 
 		$data = <<<EOD
 <script>
 	function googleTranslateElementInit() {
-        new google.translate.TranslateElement({
-                pageLanguage: '$wgGoogleTranslatorOriginal',
-                includedLanguages: '$wgGoogleTranslatorLanguages',
-                layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-        }, 'google_translate_element');
+	new google.translate.TranslateElement({
+		pageLanguage: '$wgGoogleTranslatorOriginal',
+		includedLanguages: '$wgGoogleTranslatorLanguages',
+		layout: google_translate_element
+	}, 'google_translate_element');
 	}
 </script>
 <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
